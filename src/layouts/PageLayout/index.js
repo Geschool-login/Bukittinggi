@@ -12,7 +12,8 @@ import logo from '../../assets/img/logo.png'; //Logo
 function pageLayout( props ) {
     //EDITABLE
     const deskripsi = "Selamat datang kembali di"
-    const title = "Bukittinggi Blended Learning"
+    const title1 = "Bukittinggi"
+    const title2 = "Blended Learning"
     const slogan = "Siapa yang menempuh jalan untuk mencari ilmu, maka Allah akan mudahkan baginya jalan menuju surga."
     const copyright = "2021 Bukittinggi Blended Learning - Didukung oleh Geschool"
 
@@ -23,7 +24,8 @@ function pageLayout( props ) {
                 logo={logo}
                 background={background}
                 deskripsi={deskripsi}
-                title={title}
+                title1={title1}
+                title2={title2}
                 slogan={slogan}
                 appName={props.appName}
             >
